@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #6389f1 0%, #172ad4 100%);
+    padding: 1.2rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    transform: translateY(-2px);
+}
+
+.hero {
+    background: url('https://estaticos-cdn.prensaiberica.es/clip/c41ce796-dd25-4e83-bb70-bfc80636c32b_alta-libre-aspect-ratio_default_0.jpg')center/cover;
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background: white;
+    color: #667eea;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.deportes {
+    padding: 4rem 0;
+}
+
+.deportes h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #6366f1;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.sport-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+    border-top: 4px solid;
+}
+
+.sport-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.futbol { border-color: #10b981; }
+.basketball { border-color: #f59e0b; }
+.tenis { border-color: #ef4444; }
+.natacion { border-color: #3b82f6; }
+.yoga { border-color: #a855f7; }
+.ciclismo { border-color: #06b6d4; }
+
+.icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.sport-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #1f2937;
+}
+
+.sport-card p {
+    color: #6b7280;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    display: inline-block;
+    background: #f3f4f6;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.cta {
+    background: linear-gradient(135deg, #9a93fb 0%, #577cf5 100%);
+    padding: 4rem 0;
+    text-align: center;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-secondary {
+    background: white;
+    color: #5781f5;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
